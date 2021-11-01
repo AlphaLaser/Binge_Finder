@@ -120,9 +120,11 @@ if len(others) != 0 :
 
         st.markdown("<hr>", unsafe_allow_html=True)
 
+        st.subheader('\nGenres : \n')
+        st.markdown("<br>", unsafe_allow_html=True)
+
         try :
-            st.subheader('\nGenres : \n')
-            st.markdown("<br>", unsafe_allow_html=True)
+            
 
             genres = (movie_id_recog['genre'])
 
@@ -130,9 +132,8 @@ if len(others) != 0 :
                 st.text(f'• {i}')
 
         except:
-            st.subheader('\nGenres : \n')
-            st.markdown("<br>", unsafe_allow_html=True)
-            st.write("They didn't add genres for this one")
+            
+            st.write("Aww man, they didn't add genres for this one")
 
 
 
