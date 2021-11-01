@@ -1,6 +1,5 @@
 from imdb import IMDb
 import streamlit as st
-from icecream import ic
 from bokeh.models.widgets import Div
 from PIL import Image
 
