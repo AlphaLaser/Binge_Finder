@@ -48,14 +48,14 @@ st.sidebar.markdown('<hr>', unsafe_allow_html=True)
 # st.sidebar.markdown('<br>', unsafe_allow_html=True)
 
 if st.sidebar.button('What it does and Usage'):
-    js = "window.open('https://light-feeling-5c3.notion.site/Usage-Guide-919d7c6ab66d41c981319b9ab8a3a137')"  # New tab or window
+    js = "window.open('https://www.google.com/search?q=documentation+in+progress+rn&rlz=1C1RXQR_enIN962IN962&sxsrf=AOaemvK_uLKPh6NzB5wiJ33eS_MC7rVwEg%3A1635762847515&ei=n8J_YYXdHqHZz7sPmqmRwAw&oq=documentation+in+progress+rn&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjoHCAAQRxCwAzoGCAAQFhAeSgQIQRgAUNENWN8aYNIcaAFwAngAgAGgAYgBowOSAQMwLjOYAQCgAQHIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjFqNm7-_bzAhWh7HMBHZpUBMgQ4dUDCA4&uact=5')"  # New tab or window
     # js = "window.location.href = 'https://github.com/AlphaLaser/para-tools'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
     st.bokeh_chart(div)
 
 if st.sidebar.button('Github'):
-    js = "window.open('https://github.com/AlphaLaser/ParaTools')"  # New tab or window
+    js = "window.open('https://github.com/AlphaLaser/Binge_Finder')"  # New tab or window
     # js = "window.location.href = 'https://github.com/AlphaLaser/para-tools'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
