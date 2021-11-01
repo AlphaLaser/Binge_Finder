@@ -1,0 +1,4 @@
+IMDbPY==2021.4.18
+streamlit==1.1.0
+bokeh==2.3.3
+image==1.5.33
