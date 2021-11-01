@@ -47,15 +47,15 @@ title = st.sidebar.header('Navigator 🧭')
 st.sidebar.markdown('<hr>', unsafe_allow_html=True)
 # st.sidebar.markdown('<br>', unsafe_allow_html=True)
 
-if st.sidebar.button('What it does and Usage'):
-    js = "window.open('https://light-feeling-5c3.notion.site/Usage-Guide-919d7c6ab66d41c981319b9ab8a3a137')"  # New tab or window
+if st.sidebar.button('Documentation'):
+    js = "window.open('https://www.google.com/search?q=documentation+in+progress+rn&rlz=1C1RXQR_enIN962IN962&oq=doc&aqs=chrome.1.69i60j69i59l2j69i57j69i60l4.1713j0j1&sourceid=chrome&ie=UTF-8')"  # New tab or window
     # js = "window.location.href = 'https://github.com/AlphaLaser/para-tools'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
     st.bokeh_chart(div)
 
 if st.sidebar.button('Github'):
-    js = "window.open('https://github.com/AlphaLaser/ParaTools')"  # New tab or window
+    js = "window.open('https://github.com/AlphaLaser/Binge_Finder')"  # New tab or window
     # js = "window.location.href = 'https://github.com/AlphaLaser/para-tools'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
