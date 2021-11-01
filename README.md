@@ -11,7 +11,7 @@
 
 <br/>
 
-👨‍💻 Try out the app [here](https)
+👨‍💻 Try out the app [here](https://share.streamlit.io/alphalaser/binge_finder/main/main.py)
 
 📄 See [usage documentation](#) for full details on features and how to use  
 
