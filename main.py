@@ -4,7 +4,7 @@ from bokeh.models.widgets import Div
 from PIL import Image
 
 
-logo = Image.open(r'Binge_Finder.png')
+logo = Image.open(r'images/Binge_Finder.png')
 st.image(logo)
 
 st.markdown("<br>", unsafe_allow_html=True)
